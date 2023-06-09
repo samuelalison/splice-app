@@ -1,0 +1,43 @@
+.hero_container{
+padding: 7.5rem 80px;
+}
+
+.hero-main-text{
+padding-right: 5rem;
+}
+
+.hero-main-text h1{
+font-weight: 700;
+font-family: sans-serif;
+font-size: 4.5rem;
+background-image: url('../../assets/Vector\ 5.png');
+background-position: left -150px top -150px;
+background-repeat: no-repeat;
+background-clip: text;
+color: transparent;
+}
+
+.hero_second-text {
+font-family: 'Söhne Breit Test';
+font-size: 30px;
+line-height: 34px;
+color: #595959;
+margin-bottom: 1rem;
+margin-top: 0.5rem;
+}
+
+.hero__btn{
+margin-top: 2rem;
+margin-bottom: 4rem;
+}
+
+.hero__btn button{
+background: #0033FF;
+border-radius: 80px;
+font-family: 'Söhne Breit Test';
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+padding: 10px 30px;
+border: none;
+}

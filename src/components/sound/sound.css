@@ -1,0 +1,78 @@
+.sounds{
+display: flex;
+justify-content: center;
+margin-top: 4.5rem;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(96, 96, 96, 0.5);
+
+}
+
+.find{
+display: flex;
+justify-content: center;
+}
+
+.find h4{
+font-size: 48px;
+line-height: 108%;
+/* identical to box height, or 52px */
+color: #272727;
+}
+
+.blue-sound{
+color: #0033FF;
+}
+
+.sound-text{
+display: flex;
+justify-content: center;
+/* justify-items: center; */
+/* align-items: center; */
+/* align-content: center; */
+/* padding: 2rem; */
+/* align-items: center; */
+line-height: 10px;
+}
+
+.sound-text {
+display: flex;
+justify-content: center;
+/* margin-top: 0; */
+}
+
+.top{
+display: flex;
+justify-content: center;
+}
+
+.web{
+display: flex;
+justify-content: center;
+}
+
+.try_btn{
+display: flex;
+justify-content: center;
+margin-top: 35px;
+}
+
+.sound-text p{
+font-size: 18px;
+line-height: 171%;
+/* or 31px */
+text-align: center;
+color: #958A8A;
+}
+
+.try_btn button{
+    background: #0033FF;
+    border-radius: 80px;
+    font-family: 'Söhne Breit Test';
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border: none;
+}

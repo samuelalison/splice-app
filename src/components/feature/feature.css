@@ -1,0 +1,40 @@
+.featured{
+margin-top: 6rem;
+}
+
+.featured_text{
+display: flex;
+justify-content: center;  
+}
+
+.featured_images{
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+margin-top: 2rem;
+}
+
+.veriety{
+max-width: 7rem;
+max-height: 2rem;
+}
+
+.verge{
+max-width: 7rem;
+max-height: 2rem;
+}
+
+.bill{
+max-width: 7rem;
+max-height: 2rem;
+}
+
+.wired{
+max-width: 7rem;
+max-height: 2rem;
+}
+
+.complex{
+max-width: 7rem;
+max-height: 2rem;
+}

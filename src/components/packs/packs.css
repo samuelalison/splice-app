@@ -1,0 +1,8 @@
+.pack{
+margin-top: 2.5rem;
+background-image: url('../../assets/Vector 8 (1).png');
+}
+.pack_container{
+display: flex;
+justify-content: center;
+}

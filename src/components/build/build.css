@@ -1,0 +1,101 @@
+
+.build-container{
+background-image: url('../../assets/Rectangle\ 11.png');
+padding-right: 44px;
+padding-left: 144px;
+}
+
+.circle1{
+    /* box-sizing: border-box; */
+
+    position: relative;
+    width: 400px;
+    height: 400px;
+    /* right: 807px; */
+    /* top: calc(50% - 486px/2 - 626.5px); */
+    border-radius: 400px;
+    
+    border: 3px solid rgba(126, 112, 255, 0.28);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.logo1{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+align-content: center;
+position: absolute;
+}
+
+
+
+
+
+.top{
+top: 0;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+}
+
+.top-left{
+top: 25%;
+left: 0;
+transform: translateX(-25%) translateY(-50%);
+}
+
+.top-right{
+    top: 25%;
+    right: 0;
+    transform: translateX(25%) translateY(-50%);
+ }
+
+
+
+
+
+.bottom{
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+ }
+
+.bottom-left{
+    bottom: 25%;
+    left: 0;
+    transform: translateX(-50%) translateY(25%);
+ }
+
+.bottom-right{
+    bottom: 25%;
+    right: 0;
+    transform: translateX(25%) translateY(50%);
+ }
+
+  
+
+.circle2{
+    /* box-sizing: border-box; */
+
+    /* position: absolute; */
+    width: 340px;
+    height: 340px;
+    /* right: 807px; */
+    /* top: calc(50% - 486px/2 - 626.5px); */
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    background: radial-gradient(50% 50% at 50% 50%, #816FFF 0%, rgba(129, 64, 155, 0) 100%);
+}
+
+.circle3{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+
+    background: #F4F6F9;
+}

@@ -1,0 +1,10 @@
+export { default as Feature} from './feature/Feature';
+export { default as Navbar} from './navbar/Navbar';
+export { default as Hero} from './hero/Hero';
+export { default as Sound} from './sound/Sound';
+export { default as Music} from './music/Music';
+export { default as Packs} from './packs/Packs';
+export { default as Build} from './build/Build';
+export { default as Sync} from './sync//Sync';
+export { default as Creators} from './creators/Creators';
+export { default as Footer} from './footer/Footer';

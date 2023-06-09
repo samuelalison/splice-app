@@ -1,0 +1,43 @@
+.splice__navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 80px 0;
+    
+}
+
+.splice__navbar-links-container{
+display: flex;
+align-items: center;
+}
+
+.splice__navbar-links_logo{
+    margin-right: 78px;
+}
+
+.splice__navbar-links{
+    display: flex;
+}
+
+.splice__navbar-links p:not(:last-child){
+   padding-right: 33px;
+}
+
+.splice__navbar-sign{
+    display: flex;
+    align-items: center;
+}
+
+.splice__navbar-sign button{
+margin-left: 28px;
+background: rgba(255, 255, 255, 0.26);
+backdrop-filter: blur(2.5px);
+border-radius: 105px;
+
+border: none;
+padding: 10px 30px;
+color: #FFFFFF;
+}
+
+.splice__navbar-sign p {
+    color: #FFFFFF;
+}
