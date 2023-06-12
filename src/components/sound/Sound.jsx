@@ -11,7 +11,7 @@ const Sound = () => {
         <h4>Find your <span className='blue-sound'>sound</span> </h4>
       </div>
       <div className='sound-text'>
-        <p>Preview and download millions of royalty-free samples from<br /><span className='top'>top producers, artists, and sound designers. Available on</span><span className='web'>desktop, web, and mobile.</span></p>
+        <p>Preview and download millions of royalty-free samples from <br /> top producers, artists, and sound designers. Available on <br /> desktop, web, and mobile.</p>
       </div>
 
       <div className='try_btn'>

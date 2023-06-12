@@ -1,0 +1,185 @@
+.creators{
+background: #0C0C0C;
+color: white;
+margin-top: 10rem;
+border-radius:0 0 4rem 4rem;
+}
+
+
+.creators-container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.creators-left{
+margin-left: 82px;
+padding-top: 13.5rem;
+
+}
+
+.creators-left-h span{
+color: #0033FF;    
+}
+
+.creators-left-h{
+font-size: 48px;
+line-height: 108%;
+/* or 52px */
+color: #FFFFFF;   
+}
+
+.creator-btn{
+background: #0033FF;
+border-radius: 80px;
+font-family: 'Söhne Breit Test';
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+padding: 10px 30px;
+border: none;
+margin-top: 2rem;   
+}
+
+.creators-left p{
+font-size: 18px;
+line-height: 171%;
+/* or 31px */
+color: #958A8A;   
+}
+
+.substract {
+width: 700px;
+background: url('../../assets/Subtract.png');
+bottom: 8rem;
+background-position: left 0;
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.substract-container{
+display: flex;
+padding: 18rem 5rem;
+}
+
+.card-1and2{
+gap: 1rem;
+margin-bottom: 2rem;
+}
+
+.card-artist{
+padding-top: 10px;
+display: flex;
+align-items: center;
+}
+
+.card-img{
+margin-right: 10px;
+}
+
+.card1{
+padding: 1rem;
+background: #202020;
+mix-blend-mode: normal;
+border-radius: 3px;
+margin: 1rem;
+/* position: relative;
+top: 2rem; */
+}
+
+.card2{
+padding: 1rem;
+background: #202020;
+mix-blend-mode: normal;
+border-radius: 3px;
+margin: 1rem;
+position: relative;
+left: 3rem;
+position: relative;
+top: 2rem;
+}
+
+.card3{
+padding: 1rem;
+background: #202020;
+mix-blend-mode: normal;
+border-radius: 3px;
+margin: 1rem;
+}
+
+.card4{
+padding: 1rem;
+background: #202020;
+mix-blend-mode: normal;
+border-radius: 3px;
+margin: 1rem;
+position: relative;
+left: 3rem;
+top: 2rem;
+}
+
+.card-artist{
+display: flex;
+}
+
+.card_text-name{
+font-size: 11px;
+line-height: 108%;
+/* identical to box height, or 12px */
+color: #FFFFFF;
+}
+
+.card_text-artist{
+font-size: 8px;
+line-height: 108%;
+/* identical to box height, or 9px */
+color: #FFFFFF;
+}
+
+
+.good{
+background-image: url('../../assets/Vector.png');
+/* margin-top: 4rem; */
+}
+
+.good-h{
+/* margin-bottom: 5rem; */
+font-size: 38px;
+line-height: 108%;
+/* identical to box height, or 41px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.good_low{
+display: flex;
+margin-top: 6rem;
+padding: 0 6rem 10rem;
+}
+
+.good_low div:not(:last-child){
+    padding-right: 40px;
+}
+
+.low-img{
+margin-bottom: 1rem;
+}
+
+.good_low-h{
+font-size: 22px;
+line-height: 108%;
+/* identical to box height, or 24px */
+color: #FFFFFF;
+margin-bottom: 19px;
+}
+
+.good_low-p{
+font-size: 16px;
+line-height: 171%;
+/* or 27px */
+color: #958A8A;
+
+}

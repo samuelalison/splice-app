@@ -1,0 +1,45 @@
+.sync-container{
+display: flex;
+justify-content: center;
+align-items: center;
+/* gap: 10rem; */
+padding-right: 12rem;
+padding-left: 12rem;
+padding-top: 3rem;
+}
+
+.studio-text-p{
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(96, 96, 96, 0.5);
+}
+
+.studio-text-h{
+font-size: 48px;
+line-height: 108%;
+/* identical to box height, or 52px */
+color: #272727;   
+}
+.studio-text-h span{
+ color: #0033FF; 
+}
+
+.studio-text-p2{
+font-size: 18px;
+line-height: 171%;
+/* or 31px */
+color: #958A8A;
+}
+
+.sync-btn{
+background: #0033FF;
+border-radius: 80px;
+font-family: 'Söhne Breit Test';
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+padding: 10px 30px;
+border: none;
+margin-top: 2rem;
+}

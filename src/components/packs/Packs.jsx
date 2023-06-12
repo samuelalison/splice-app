@@ -4,10 +4,16 @@ import pack from '../../assets/image 12.png';
 
 const Packs = () => {
   return (
-    <div className='pack'>
-      <div className='pack_container'> 
+    <div className='pack-container'>
+      <div className='packs'> 
         <img src={pack} alt="" />
+      
       </div>
+
+
+
+
+
     </div>
   )
 }

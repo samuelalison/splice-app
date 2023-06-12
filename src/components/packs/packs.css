@@ -1,8 +1,19 @@
-.pack{
-margin-top: 2.5rem;
-background-image: url('../../assets/Vector 8 (1).png');
+.pack-container{
+/* margin-top: 5rem; */
+
+/* background: linear-gradient(359.8deg, #F4F6F9 58.06%, rgba(244, 246, 249, 0) 102.13%);
+transform: rotate(180deg); */
+
+
 }
-.pack_container{
+.packs{
 display: flex;
 justify-content: center;
+background-image: url('../../assets/Vector 8 (1).png');
+background-repeat: no-repeat;
+/* background-position: top 50px; */
+position: relative;
+top: 8rem;
+/* background: linear-gradient(359.8deg, #F4F6F9 58.06%, rgba(244, 246, 249, 0) 102.13%);
+transform: rotate(-180deg); */
 }

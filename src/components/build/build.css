@@ -1,9 +1,75 @@
+.build{
+background-image: url('../../assets/Rectangle 11.png');
+}
+
 
 .build-container{
-background-image: url('../../assets/Rectangle\ 11.png');
-padding-right: 44px;
-padding-left: 144px;
+/* background-image: url('../../assets/Rectangle 11.png'); */
+padding-right: 12rem;
+padding-left: 12rem;
+/* background-position: 6rem rem; */
+/* position: relative; */
+/* object-fit: contain; */
+/* top: -5rem; */
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8rem;
+padding-top: 15rem;
 }
+
+.earth img{
+max-width: 400px;
+/* padding-top: 15rem; */
+}
+
+.plugin-head{
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(96, 96, 96, 0.5);   
+}
+
+.plugins-build h4{
+font-size: 48px;
+line-height: 108%;
+/* or 52px */
+color: #0C0C0C;
+}
+
+.plugins-build h4 span{
+color: #0033FF;
+}
+
+.plugins-build p{
+font-size: 18px;
+line-height: 171%;
+/* or 31px */
+
+
+color: #958A8A;   
+}
+
+.plugins-build button{
+    background: #0033FF;
+    border-radius: 80px;
+    font-family: 'Söhne Breit Test';
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
 
 .circle1{
     /* box-sizing: border-box; */
@@ -18,7 +84,8 @@ padding-left: 144px;
     border: 3px solid rgba(126, 112, 255, 0.28);
     display: flex;
     justify-content: center;
-    align-items: center; 
+    /* align-items: center;  */
+padding-bottom: 5rem;
 }
 
 .logo1{
@@ -29,9 +96,6 @@ align-items: center;
 align-content: center;
 position: absolute;
 }
-
-
-
 
 
 .top{
@@ -98,4 +162,37 @@ transform: translateX(-25%) translateY(-50%);
     border-radius: 200px;
 
     background: #F4F6F9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
+
+
+.logo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    }
+
+.small-top{
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30%);  
+    } 
+    
+.small-left{
+    bottom: 0;
+    left: 0;
+    transform: translateX(-40%) translateY(0%); 
+} 
+
+.small-right{
+    bottom: 0;
+    right: 25%;
+    transform: translateX(90%) translateY(0%);
+} 
+    
